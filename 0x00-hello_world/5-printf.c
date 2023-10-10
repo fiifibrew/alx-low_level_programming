@@ -1,12 +1,14 @@
 #include <stdio.h>
+
 /**
- * The main function is the entry point of the program.
- * It prints the size of various types.
+ * main - Entry point of the program
  *
- * @return 0 on success
+ * Description: This function prints a piece of art with proper grammar.
+ *
+ * Return: Always 0 (success)
  */
-	int main(void)
+int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
+    printf("with proper grammar, but the outcome is a piece of art,\n");
+    return (0);
 }
