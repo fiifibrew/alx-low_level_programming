@@ -11,7 +11,7 @@
 void swap_int(int *a, int *b)
 /* thefunction that swaps the values of two ints. */
 {
-	int temp *a;
+	int temp = *a;
 	*a = *b;
 	*b = temp;
 }
