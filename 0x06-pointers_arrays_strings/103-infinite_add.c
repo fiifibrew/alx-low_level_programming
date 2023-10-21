@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * infinite_add - add two string numbers
@@ -12,10 +12,8 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int len1 = 0, len2 = 0, lenS = 0;
 	
-	while (*(n1 + len1++))
-		;
-	while (*(n2 + len2++))
-		;
+	while (*(n1 + len1++));
+	while (*(n2 + len2++));
 	_putchar("%d, %d\n", len1, len2);
 	return (r);
 }

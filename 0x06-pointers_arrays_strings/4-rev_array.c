@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-* _reverse_array - reverses the content of an array of integers.
+* reverse_array - reverses the content of an array of integers.
 * @n: size of src
+* @a: pointer
 */
 
 void reverse_array(int *a, int n)
@@ -15,6 +16,7 @@ void reverse_array(int *a, int n)
 	while (start < end)
 	{
 		int temp;
+
 		temp = a[start];
 		a[start] = a[end];
 		a[end] = temp;

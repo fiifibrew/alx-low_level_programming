@@ -30,22 +30,4 @@ char *_strcat(char *dest, char *src)
 	/*terminate the destination string*/
 	dest[length] = '\0';
 	return (dest);
-}	int length;
-
-	/* store the length of the destination in length*/
-	length = 0;
-	while (dest[length] != '\0')
-	{
-		++length;
-	}
-
-	/*concatenate source to destination*/
-	for (i = 0; src[i] != '\0'; ++i, ++length)
-	{
-		dest[length] += src[i];
-	}
-
-	/*terminate the destination string*/
-	dest[length] = '\0';
-	return (dest);
-}
+}	

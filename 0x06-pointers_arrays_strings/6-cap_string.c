@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* cap_string - a function that changes all lowercase 
+* cap_string - a function that changes all lowercase
 * letters of a string to uppercase
 * @s: parameter for passing an array
 *
